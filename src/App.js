@@ -133,7 +133,7 @@ function App() {
           <div className="hidden lg:block">{navList}</div>
           <div className="flex items-center gap-x-1">
             <Button variant="text" size="sm" className="hidden lg:inline-block">
-              <span>Resume</span>
+              <span>Darkmode</span>
             </Button>
             <Button
               variant="gradient"
@@ -186,7 +186,7 @@ function App() {
             {navList}
             <div className="flex items-center gap-x-1">
               <Button fullWidth variant="text" size="sm" className="">
-                <span>Resume</span>
+                <span>Darkmode</span>
               </Button>
               <Button fullWidth variant="gradient" size="sm" className="">
                 <span>GITHUB</span>
@@ -195,7 +195,24 @@ function App() {
           </div>
         </MobileNav>
       </Navbar>
-      
+      <header>
+        <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
+          <div className="row-start-2 lg:row-auto">
+            <h1 className="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 mb-4 lg:text-5xl !leading-tight text-3xl ml-20">
+              Hi 👋, I'm Owencodes FullStack Developer
+            </h1>
+            <p class="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-4 !text-gray-500 md:pr-16 xl:pr-28 ml-20">
+              👋 Hey there! I'm a dedicated and enthusiastic full stack web
+              developer with a passion for creating beautiful, functional,
+              and clean websites.
+            </p>
+          </div>
+          <img className="w-96 h-96 rounded-full object-cover ml-10" src="/selfie.png" />
+        </div>
+      </header>
+      <div className="container mx-auto mb-20 text-center">
+        <p class="block antialiased font-sans text-base leading-relaxed text-blue-gray-900 mb-2 font-bold uppercase">my skills</p>
+      </div>
     </div>
   );
 }
